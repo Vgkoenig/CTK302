@@ -14,8 +14,8 @@ function draw() {
     break;
 
     case 1:
-      background("blue")
-      text("becasue", width / 2, height / 2);
+      background("blue");
+      text("because", width / 2, height / 2);
     break;
 
   }
