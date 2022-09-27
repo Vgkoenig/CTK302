@@ -2,7 +2,7 @@ let state = 0;
 
 function setup() {
   createCanvas(500, 500);
-  rectMode(CENTER);
+  textAlign(CENTER);
 }
 
 function draw() {
@@ -10,7 +10,7 @@ function draw() {
   switch(state){
     case 0:
       background("red");
-      text("why did the chx", width / 2, height / 2, 400, 400); 
+      text("why did \nthe chx", width / 2, height / 2, 400, 400); 
     break;
 
     case 1:
