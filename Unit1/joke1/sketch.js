@@ -10,7 +10,7 @@ function draw() {
   switch(state){
     case 0:
       background("red");
-      text("why did \nthe chx", width / 2, height / 2, 400, 400); 
+      text("why did \nthe chx", width / 2, height / 2); 
     break;
 
     case 1:
