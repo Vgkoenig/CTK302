@@ -14,7 +14,14 @@ function draw() {
     break;
 
     case 1:
-    break:
+      background("blue")
+      text("becasue", width / 2, height / 2);
+    break;
 
   }
+}
+
+function mouseReleased(){
+  state++ ;
+  if (state > 1) state = 0;
 }
