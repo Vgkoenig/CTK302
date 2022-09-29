@@ -3,7 +3,7 @@ let state = 0;
 let s1, s2, s3;
 function setup() {
   createCanvas(800, 800);
-
+}
   function preload(){
     s1 = loadSound("assets/funky.mp3");
     s2 = loadSound("assets/photo.mp3");
