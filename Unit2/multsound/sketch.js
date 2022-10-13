@@ -21,6 +21,7 @@ function draw() {
 
     case 0:
       text("0", 100, 100);
+      background("red");
       if (!s1.isPlaying()){
         s1.play();
       }
@@ -28,6 +29,7 @@ function draw() {
 
     case 1:
       text("1", 100, 100);
+      background("blue");
       if (!s2.isPlaying()){
         s2.play();
       }
@@ -35,6 +37,7 @@ function draw() {
 
     case 2:
       text("2", 100, 100);
+      background("green");
       if (!s3.isPlaying()){
         s3.play();
       }
