@@ -7,8 +7,8 @@ let timer = 0;
 
 function preload() {
   img = loadImage('assets/Entrance.jpg');
-  img1 = loadImage('assets/rock.png');
-  img2 = loadImage('assets/breakrock.png');
+  img1 = loadImage('assets/rock.PNG');
+  img2 = loadImage('assets/breakrock.PNG');
   img3 = loadImage('assets/norock.PNG');
   img4 = loadImage('assets/treasure.png');
   img5 = loadImage('assets/end.png');
