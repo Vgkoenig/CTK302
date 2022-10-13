@@ -18,7 +18,7 @@ function draw() {
   
   switch(numberOfTouches) {
     case 0: 
-      text("Charlie is exploring peacfully", 5, 22) ;
+      text("Charlie is exploring peacefully", 5, 22) ;
       image(img, 50, 50, 200, 250); 
       break ;
       
