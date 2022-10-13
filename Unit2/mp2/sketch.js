@@ -12,7 +12,7 @@ function preload() {
   img3 = loadImage('assets/norock.PNG');
   img4 = loadImage('assets/treasure.png');
   img5 = loadImage('assets/end.png');
-  s1 = loadSound("assets/cavemusic.mp3");
+  s1 = loadSound('assets/cavemusic.mp3');
   myFont = loadFont('assets/Minecraft.ttf');
 
 }
