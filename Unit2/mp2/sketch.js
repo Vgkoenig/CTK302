@@ -1,5 +1,5 @@
 let state = 0;
-let img, img1, img2, img3, img4;
+let img, img1, img2, img3, img4, img5;
 let s1;
 let myFont;
 let timer = 0;
