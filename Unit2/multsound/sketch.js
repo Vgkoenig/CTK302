@@ -20,25 +20,25 @@ function draw() {
     text("please click to start", 100, 100);
     break;
 
-    case 0:
+    case 0:     
+     background("rgb(107,14,14)");
       text("0", 100, 100);
-      background("rgb(107,14,14)");
       if (!s1.isPlaying()){
         s1.play();
       }
       break;
 
     case 1:
-      text("1", 100, 100);
       background("rgb(192,163,192)");
+      text("1", 100, 100);
       if (!s2.isPlaying()){
         s2.play();
       }
       break;
 
     case 2:
-      text("2", 100, 100);
       background("rgb(235,149,44)");
+      text("2", 100, 100);
             if (!s3.isPlaying()){
         s3.play();
       }
