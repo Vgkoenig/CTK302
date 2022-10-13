@@ -19,10 +19,7 @@ function draw() {
   textSize(18);
   text(
     "Click the screen first to give\npermission for mic input.\nMy volume is " +
-      vol.toFixed(3),
-    10,
-    60
-  );
+      vol.toFixed(3), 10, 60);
 
   // this moves the box
   //  x = vol*200 ;
