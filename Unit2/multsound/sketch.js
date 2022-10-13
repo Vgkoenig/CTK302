@@ -5,9 +5,9 @@ function setup() {
   createCanvas(800, 800);
 }
   function preload(){
-    s1 = loadSound("assets/funky.mp3");
-    s2 = loadSound("assets/photo.mp3");
-    s3 = loadSound("assets/piano.mp3");
+    s1 = loadSound("assets/blkplanet.mp3");
+    s2 = loadSound("assets/brokenfingers.mp3");
+    s3 = loadSound("assets/hammer.mp3");
   }
 
 function draw() {
@@ -17,12 +17,12 @@ function draw() {
   switch (state) {
     case-1:
     background(100);
-    text("please click to start", 100, 100);
+    text("please click to start!", 100, 100);
     break;
 
     case 0:     
      background("rgb(107,14,14)");
-      text("0", 100, 100);
+      text("Black Planet by Sisters of Mercy", 100, 100);
       if (!s1.isPlaying()){
         s1.play();
       }
@@ -30,7 +30,7 @@ function draw() {
 
     case 1:
       background("rgb(192,163,192)");
-      text("1", 100, 100);
+      text("Broken Fingers by Vision Video", 100, 100);
       if (!s2.isPlaying()){
         s2.play();
       }
@@ -38,7 +38,7 @@ function draw() {
 
     case 2:
       background("rgb(235,149,44)");
-      text("2", 100, 100);
+      text("square Hammer by Ghost", 100, 100);
             if (!s3.isPlaying()){
         s3.play();
       }
