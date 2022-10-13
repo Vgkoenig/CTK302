@@ -6,14 +6,14 @@ let timer = 0;
 
 
 function preload() {
-  img = loadImage('assets/Entrance.jpg');
-  img1 = loadImage('assets/rock.png');
-  img2 = loadImage('assets/breakrock.png');
-  img3 = loadImage('assets/norock.PNG');
-  img4 = loadImage('assets/treasure.png');
-  img5 = loadImage('assets/end.png');
+  img = loadImage("assets/Entrance.jpg");
+  img1 = loadImage("assets/rock.png");
+  img2 = loadImage("assets/breakrock.png");
+  img3 = loadImage("assets/norock.PNG");
+  img4 = loadImage("assets/treasure.png");
+  img5 = loadImage("assets/end.png");
   s1 = loadSound("assets/cavemusic.mp3");
-  myFont = loadFont('assets/Minecraft.ttf');
+  myFont = loadFont("assets/Minecraft.ttf");
 
 }
 
