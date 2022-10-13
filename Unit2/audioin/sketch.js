@@ -14,6 +14,7 @@ function draw() {
 
   // get the sound input
   vol = mic.getLevel(); // returned level is between 0 and 1
+  approachingVol += (vol - approachingVol) * ease;
 
   // text on the screen for debugging
   textSize(18);
