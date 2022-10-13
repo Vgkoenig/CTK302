@@ -12,16 +12,17 @@ function setup() {
 
 function draw() {
 
-  background(100);
+  
   
   switch (state) {
     case-1:
+    background(100);
     text("please click to start", 100, 100);
     break;
 
     case 0:
       text("0", 100, 100);
-      background("red");
+      background("rgb(107,14,14)");
       if (!s1.isPlaying()){
         s1.play();
       }
@@ -29,7 +30,7 @@ function draw() {
 
     case 1:
       text("1", 100, 100);
-      background("blue");
+      background("rgb(192,163,192)");
       if (!s2.isPlaying()){
         s2.play();
       }
@@ -37,8 +38,8 @@ function draw() {
 
     case 2:
       text("2", 100, 100);
-      background("green");
-      if (!s3.isPlaying()){
+      background("rgb(235,149,44)");
+            if (!s3.isPlaying()){
         s3.play();
       }
       break;
