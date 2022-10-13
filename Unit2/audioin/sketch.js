@@ -27,7 +27,7 @@ function draw() {
 
   // this moves the box
   //  x = vol*200 ;
-  x = map(vol, 0, 1, 0, width);
+  x = map(0, vol, 1, 0, width);
   fill("rgb(206, 212, 245)")
   rect(x, 200, 50, 50);
   
