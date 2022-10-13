@@ -23,7 +23,7 @@ function setup() {
   if (!s1.isPlaying()){
   s1.play();
   }
-  //  that music was made by walkabout on youtube
+  //  music made by walkabout on youtube
 }
 
 function draw() {
