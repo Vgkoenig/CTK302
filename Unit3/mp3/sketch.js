@@ -20,7 +20,7 @@ function setup() {
 
 
   // Spawn objects
-  for (let i = 0; i < 20; i++) {
+  for (let i = 7; i < 20; i++) {
     cars.push(new Car());
   }
 
@@ -104,8 +104,8 @@ function game() {
   background("white");
         image(img2, width /2, height/ 2, 800, 700);
 
+      
 
-  // operate on every car
   for (let i = 0; i < cars.length; i++) {
     cars[i].display();
     cars[i].move();
